@@ -198,7 +198,7 @@ def main():
 
     # Try to load logo with fallback
     try:
-        st.sidebar.image("media/logo.png", use_column_width=True)
+        st.sidebar.image("media/logo.png", use_container_width=True)
     except Exception:
         st.sidebar.markdown("## 💰 BudgIT")
 
